@@ -20,4 +20,6 @@ class LoginController extends GetxController {
   }
 
   void increment() => count.value++;
+
+  void login(String email, String password) {}
 }
